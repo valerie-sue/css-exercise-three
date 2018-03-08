@@ -1,21 +1,69 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #333;
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: normal;
 }
 
 .container {
+  box-sizing: border-box;
+  background-color: #ffffff;
   margin: 0 auto;
   width: 420px;
 }
 
 nav {
+  background-color: #000000;
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
 }
 
+h2,h3 {
+  font-size: 1em;
+  line-height: 120%;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 140%;
+}
+
 .restaurant-list {
+  box-sizing: border-box;
   padding-top: 50px;
+  width:100%;
+}
+
+.location {
+  box-sizing: border-box;
+  border: .5px solid #000;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.location:hover {
+    background-color: #e6e8e9;
+}
+
+.content {
+  box-sizing: border-box;
+  float: left;
+  margin: 1%;
+  padding: 4% 4% 6% 4%;
+  width: 90%;
+}
+
+.arrow {
+  box-sizing: border-box;
+  float: none;
+  margin: 2%;
+  width: 5%;
+  padding: 6%;
 }
